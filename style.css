@@ -17,12 +17,12 @@ body{
     margin: 0%;
 }
 
-.cabecalho{
+h1{
     background-color: var(--cor-secundaria);
     text-align: center;
 }
 
-.cabecalho__titulo{
+h1{
     font-weight: 700;
     color: var(--cor-texto)
 }
@@ -44,4 +44,9 @@ nav a:hover{
     text-decoration: underline;
     transform: scale(2.0);
     transition: transform 0.1s;
+}
+
+p{
+    text-align: center; 
+    margin-top: 43%;
 }
