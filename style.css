@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+:root {
+    --cor-principal:#ffd20b;
+    --cor-secundaria:#ecf0de;
+    --cor-texto:#372b7a;
+    --cor-fundo:#37eeb7;
+    --font: "Fascinate Inline";
+}
+
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0%;
+}
+
+.cabecalho{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.cabecalho__titulo{
+    font-weight: 700;
+    color: var(--cor-texto)
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(2.0);
+    transition: transform 0.1s;
+}
